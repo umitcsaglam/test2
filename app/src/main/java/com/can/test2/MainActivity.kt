@@ -45,6 +45,7 @@ class MainActivity : AppCompatActivity() {
     }
     fun basla(View:View){
         gizle()
+        //update
 
         object :CountDownTimer(10000,1000){
             override fun onTick(millisUntilFinished: Long) {
